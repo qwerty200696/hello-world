@@ -1,14 +1,26 @@
-<mxfile host="www.draw.io" modified="2019-12-19T11:57:15.241Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36" etag="26fiRwJxIqpDaEFGCqaO" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T13:06:37.552Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36" etag="w34iiMsOw4RO7ByeLc5B" version="12.4.3" type="github" pages="1">
   <diagram id="-egKOoqW_wiuYjCBnDJs" name="Page-1">
-    <mxGraphModel dx="803" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2184" dy="1946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-1" target="1hKoh-VqlVQTWxtnn5pZ-2">
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-110" width="220" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-110" width="440" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-10" width="460" height="360" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;保存图像&lt;br&gt;（一帧）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-17" target="1hKoh-VqlVQTWxtnn5pZ-2">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;预测文件&lt;br&gt;（图像）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="130" width="120" height="60" as="geometry"/>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-17" value="&lt;font style=&quot;font-size: 18px&quot;&gt;加载图像&lt;br&gt;（一帧）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="130" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="1hKoh-VqlVQTWxtnn5pZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-2" target="1hKoh-VqlVQTWxtnn5pZ-4">
           <mxGeometry relative="1" as="geometry"/>
@@ -22,7 +34,12 @@
         <mxCell id="1hKoh-VqlVQTWxtnn5pZ-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;TensorFlow&lt;br&gt;Serving&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="130" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;模型输出&lt;br&gt;（预测结果）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-8" target="1hKoh-VqlVQTWxtnn5pZ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-8" value="&lt;font style=&quot;font-size: 18px&quot;&gt;模型输出&lt;br&gt;（预测图像）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="270" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="1hKoh-VqlVQTWxtnn5pZ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-6" target="1hKoh-VqlVQTWxtnn5pZ-4">
@@ -30,6 +47,51 @@
         </mxCell>
         <mxCell id="1hKoh-VqlVQTWxtnn5pZ-6" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Model&lt;br&gt;（在线模型）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="10" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-12" target="1hKoh-VqlVQTWxtnn5pZ-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;URL&lt;br&gt;（视频地址）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="-10" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-13" target="1hKoh-VqlVQTWxtnn5pZ-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-13" value="&lt;font style=&quot;font-size: 18px&quot;&gt;视频&lt;br&gt;（Downloaded）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-357" y="130" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-16" value="&lt;font style=&quot;font-size: 14px&quot;&gt;发送指定帧&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-227" y="140" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-19" target="1hKoh-VqlVQTWxtnn5pZ-17">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-19" value="&lt;font style=&quot;font-size: 18px&quot;&gt;SpringBoot&lt;br&gt;（启动wpaiClient）&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-10" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1hKoh-VqlVQTWxtnn5pZ-24" target="1hKoh-VqlVQTWxtnn5pZ-16">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-24" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Response&lt;br&gt;（计算响应值）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="380" width="140" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-26" value="&lt;font style=&quot;font-size: 14px&quot;&gt;跳帧&lt;br&gt;（指定跳帧数）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="270" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-29" value="&lt;h1&gt;Python端&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-100" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-31" value="&lt;h1&gt;Java端&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-100" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-32" value="&lt;h1&gt;WPAI在线预测&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" width="170" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1hKoh-VqlVQTWxtnn5pZ-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6" y="163.5" as="sourcePoint"/>
+            <mxPoint x="76" y="163.5" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
